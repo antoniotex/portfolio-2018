@@ -6,6 +6,7 @@
 	align-items: center;
 	height: auto;
 	background: rgba(255, 255, 255, 0.9);
+	padding: 50px 0 50px 0;
 }
 .sobre-1{
 	width: 50%;
@@ -14,21 +15,12 @@
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: flex-start;
-	border: 1px solid red;
-	margin-right: 20px;
-}
-.sobre-1:nth-child(1){
-	font-size: 15px;
 }
 .sobre-item:nth-child(1){
 	font-size: 50px;
-	margin-bottom: 10px;
-}
-.sobre-item:nth-child(2){
-	font-size: 20px;
 }
 .sobre-item:nth-child(3){
-	font-size: 15px;
+	font-size: 20px;
 }
 li {
 	list-style-type:none;
@@ -43,8 +35,6 @@ li {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid red;
-
 }
 .sobre-2>img{
 	width: 100%;
