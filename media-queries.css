@@ -1,0 +1,54 @@
+/* Media queries */
+
+@media screen and (max-width: 449px) {
+	html, body{
+	background-position: 50% 0%;
+	}
+	.name{
+	font-size: 90%;
+	}
+	.item-inicio{
+	border: 3px solid #fff;
+	}	
+}
+
+/* xs < 768 */
+@media screen and (min-width: 450px) {
+	html, body{
+	background-position: 50% 0%;
+	}
+	.name{
+	font-size: 150%;
+	}	
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+	html, body{
+	background-position: 50% 0%;
+	}
+	.name{
+	font-size: 250%;
+	}	
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+	html, body{
+	background-position: 40% 0%;
+	}
+	.name{
+	font-size: 300%;
+	}	
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+	html, body{
+	background-position: 0% 0%;
+	}
+	.name{
+	font-size: 300%;
+	}
+}
+/* Fim Media queries */
