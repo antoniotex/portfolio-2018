@@ -9,6 +9,9 @@
 	}
 	.item-inicio{
 	border: 3px solid #fff;
+	}
+	#sobre{
+	grid-template-columns: 80%;
 	}	
 }
 
@@ -19,6 +22,9 @@
 	}
 	.name{
 	font-size: 150%;
+	}
+	#sobre{
+	grid-template-columns: 80%;
 	}	
 }
 
@@ -29,7 +35,10 @@
 	}
 	.name{
 	font-size: 250%;
-	}	
+	}
+	#sobre{
+	grid-template-columns: 80%;
+	}
 }
 
 /* md */
@@ -40,6 +49,9 @@
 	.name{
 	font-size: 300%;
 	}	
+	#sobre{
+	grid-template-columns: 60% 30%;
+	}
 }
 
 /* lg */
@@ -49,6 +61,9 @@
 	}
 	.name{
 	font-size: 300%;
+	}
+	#sobre{
+	grid-template-columns: 60% 30%;
 	}
 }
 /* Fim Media queries */
