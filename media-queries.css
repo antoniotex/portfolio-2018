@@ -7,9 +7,6 @@
 	.name{
 	font-size: 100%;
 	}
-	.item-inicio{
-	border: 3px solid #fff;
-	}
 	#sobre{
 	 flex-direction: column;
 	}
