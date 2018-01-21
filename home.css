@@ -17,7 +17,7 @@ html, body{
 #inicio{
 	display: grid;
 	height: 100%;
-	grid-template-columns: 1fr;
+	grid-template-columns: auto;
 	grid-template-rows: auto;
 	background: rgba(0,0,0,0.6);
 	justify-items: center;
@@ -31,6 +31,7 @@ html, body{
 	justify-content: center;
 	border: 3px solid #fff;
 	border-radius: 20px;
+	white-space: nowrap;
 }
 .name{
 	background: rgba(0, 0, 0, 0.6);
@@ -53,6 +54,7 @@ hr{
 	margin-bottom: 20px;
 	margin-top: 10px;
 	text-align: center;
+	box-shadow: 0 0 2px #000;
 }
 
 
