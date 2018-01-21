@@ -1,4 +1,23 @@
 #servicos{
+	width: 90%;
+	height: auto;
+	padding: 50px 0 50px 0;
+	margin: 20px auto 20px auto;
 	background: #fff;
-	height: 100%;
+	display: grid;
+	grid-template-columns: 80%;
+	grid-template-rows: 10% 10% 30% 30%;
+	justify-items: center;
+	align-items: start;
+	justify-content: center;
+}
+.logos{
+	width: 90%;
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	border: px solid green;
+}
+.servicos-item{
+	border: px solid red;
 }
