@@ -3,7 +3,8 @@
 	padding: 0px;
 }
 body {
-	background: url(images/bg-2.jpeg) repeat;
+	background: url(images/bg-2.jpeg), 
+				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-size: 1400px 100%;
 	background-attachment: fixed;
 	font-family: 'Quicksand', sans-serif;
