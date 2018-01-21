@@ -4,8 +4,9 @@
 }
 html, body{
 	height: 100%;
-	background: url(images/bg-2.jpeg);
+	background: url(images/bg-2.jpeg) repeat;
 	background-position: 0% 0%;
+	background-size: 300%;
 	background-attachment: fixed;
 }
 #inicio{
