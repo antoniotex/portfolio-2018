@@ -1,23 +1,15 @@
-.aux{
-	margin: 5px;
-	color: #691746;
-}
 *{
 	margin: 0px;
 	padding: 0px;
 	font-family: arial;
 }
 #sobre{
-	display:grid;
-	grid-template-columns: 60% 30%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 	height: auto;
 	background: rgba(255, 255, 255, 0.9);
-	border: 1px solid green;
-	align-items: start;
-	justify-items: center;
-	justify-content: center;
-	align-items: center;
-	padding: 20px 0 50px 0;
 }
 .sobre-1{
 	display: flex;
@@ -25,19 +17,20 @@
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: flex-start;
-	border: 0px solid grey;
+	border: 1px solid red;
+	padding: 50px;
 }
 .sobre-1:nth-child(1){
 	font-size: 15px;
 }
-.aux:nth-child(1){
+.sobre-item:nth-child(1){
 	font-size: 50px;
 	margin-bottom: 10px;
 }
-.aux:nth-child(2){
+.sobre-item:nth-child(2){
 	font-size: 20px;
 }
-.aux:nth-child(3){
+.sobre-item:nth-child(3){
 	font-size: 15px;
 }
 li {
@@ -52,7 +45,7 @@ li {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	border: 0px solid grey;
+	border: 1px solid red;
 
 }
 .sobre-2>img{
