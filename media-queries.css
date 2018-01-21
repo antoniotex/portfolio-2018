@@ -19,6 +19,9 @@
 	.sobre-2{
 	width: 70%;
 	margin-top: 40px;
+	}
+	.item-inicio{
+		border: 3px solid yellow;
 	}	
 }
 
@@ -39,6 +42,9 @@
 	.sobre-2{
 	width: 70%;
 	margin-top: 40px;
+	}
+	.item-inicio{
+		border: 3px solid grey;
 	}	
 }
 
@@ -60,6 +66,9 @@
 	width: 70%;
 	margin-top: 40px;
 	}
+	.item-inicio{
+		border: 3px solid green;
+	}
 }
 
 /* md */
@@ -79,6 +88,9 @@
 	.sobre-2{
 	width: 30%;
 	}
+	.item-inicio{
+		border: 3px solid red;
+	}
 }
 
 /* lg */
@@ -97,6 +109,9 @@
 	}
 	.sobre-2{
 	width: 30%;
+	}
+	.item-inicio{
+		border: 3px solid #fff;
 	}
 }
 /* Fim Media queries */
