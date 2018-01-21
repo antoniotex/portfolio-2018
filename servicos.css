@@ -6,18 +6,24 @@
 	background: #fff;
 	display: grid;
 	grid-template-columns: 80%;
-	grid-template-rows: 10% 10% 30% 30%;
+	grid-template-rows: 10% 4% 10% auto auto;
 	justify-items: center;
 	align-items: start;
 	justify-content: center;
 }
 .logos{
-	width: 90%;
-	margin-top: 40px;
+	width: 100%;
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
-	border: px solid green;
+	align-items: flex-end;
+	margin-top: 40px;
+}
 }
 .servicos-item{
-	border: px solid red;
+	width: 15%;
+}
+#servicos:nth-child(2){
+	margin-top: 60px;
 }
