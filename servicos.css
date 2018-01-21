@@ -13,6 +13,7 @@
 }
 .logos{
 	width: 100%;
+	height: auto;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -23,7 +24,4 @@
 }
 .servicos-item{
 	width: 15%;
-}
-#servicos:nth-child(2){
-	margin-top: 60px;
 }
