@@ -3,7 +3,7 @@
 	padding: 0px;
 }
 body {
-	background: url(images/bg-2.jpeg);
+	background: url(../images/bg-2.jpeg);
 	background-attachment: fixed;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 15px;
