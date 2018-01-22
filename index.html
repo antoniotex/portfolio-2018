@@ -25,7 +25,7 @@
 					<!--<div class="logo">
 						LOGO
 					</div>-->
-					<div class="menu">
+					<div class="menu showing">
 						<ul>
 							<li><a href="#inicio">HOME</a></li>
 							<li><a href="#sobre">SOBRE</a></li>
@@ -92,7 +92,9 @@
 
 		<script type="text/javascript">
 
+
 			$(document).ready(function(){
+				
 				$(".menu-icon").on("click", function(){
 					$("nav ul").toggleClass("showing");
 				});
