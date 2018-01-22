@@ -5,7 +5,7 @@ nav{
 }
 nav ul{
 	list-style: none;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.3);
 	overflow: hidden;
 	color: #fff;
 	padding: 0;
@@ -34,6 +34,10 @@ nav ul li a{
 	color: #fff;
 	font-size: 20px;
 }
+nav ul li a:hover{
+	border-top: 2px solid blue;
+	text-shadow: 0 0 10px blue;
+}
 .menu-icon{
 	width: 100%;
 	background: #000;
@@ -44,7 +48,7 @@ nav ul li a{
 	color: #fff;
 	display: none;
 }
-.fa{
+.fa-bars{
 	padding: 4px;
 	border: 3px solid #fff;
 	border-radius: 25%;
@@ -57,10 +61,10 @@ nav ul li a{
 	}
 	nav ul{
 		max-height: 0px;
-		background: #000;
+		background: rgba(0, 0, 0, 0.8);
 	}
 	nav.black ul{
-		background: #000;
+		background: rgba(0, 0, 0, 0.8);
 	}
 	.showing{
 		max-height: 20em;
@@ -72,6 +76,7 @@ nav ul li a{
 		text-align: center;
 	}
 	.menu-icon{
+		background: rgba(0, 0, 0, 0.8);
 		display: block;
 	}
 }
