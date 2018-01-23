@@ -80,8 +80,7 @@
 				<img src="images/javascript.png" alt="" class="servicos-item">
 				<img src="images/jquery.png" alt="" class="servicos-item">
 				<img src="images/mysql.png" alt="" class="servicos-item">
-			</div>
-			<div class="logos">
+			
 				<img src="images/nodejs.png" alt="" class="servicos-item">
 				<img src="images/mongo.png" alt="" class="servicos-item">
 				<img src="images/wordpress.png" alt="" class="servicos-item">
@@ -91,6 +90,14 @@
 		</div>
 
 		<script type="text/javascript">
+
+			$('nav a[href^="#"]').on('click', function(e) {
+				e.preventDefault();
+				var id = $(this).attr('href'), targetOffset = $(id).offset().top;
+				$('html, body').animate({ 
+					scrollTop: targetOffset - 30
+				}, 700);
+			});
 
 
 			$(document).ready(function(){

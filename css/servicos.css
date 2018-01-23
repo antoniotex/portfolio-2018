@@ -1,5 +1,5 @@
 #servicos{
-	width: 100%;
+	width: 99%;
 	display:flex;
 	margin: 10px auto;
 	flex-direction: row;
@@ -27,7 +27,7 @@
 	font-size: 20px;
 }
 .logos{
-	width: 100%;
+	width: 90%;
 	height: auto;
 	display: flex;
 	flex-direction: row;
