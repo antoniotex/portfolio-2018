@@ -29,9 +29,8 @@ html{
 	white-space: nowrap;
 }
 .name{
-	background: rgba(0, 0, 0, 0.9);
+	background: rgba(0, 0, 0, 0.8);
 	color: #fff;
-	margin: auto;
 	padding: 0 10% 0 10%;
 	font-size: 300%;
 	text-align: center;
@@ -42,7 +41,7 @@ html{
 }
 .name:hover{
 	background: rgba(0, 0, 0, 0.8);
-	text-shadow: 0px 0px 5px #fff;
+	box-shadow: 0px 0px 10px #fff;
 }
 hr{
 	width: 90%;

@@ -15,6 +15,13 @@
 	.servicos-item{
 	width: 20%;
 	}
+	.footer-1 > a{
+		font-size: 300%;
+		margin: 0 5px;
+	}
+	#contato{
+	grid-template-columns: 95%;
+	}
 }
 @media screen and (min-width: 450px) {
 	.name{
@@ -32,6 +39,9 @@
 	}
 	.servicos-item{
 	width: 20%;
+	}
+	#contato{
+	grid-template-columns: 95%;
 	}
 }
 
@@ -52,6 +62,9 @@
 	.servicos-item{
 	width: 13%;
 	}
+	#contato{
+	grid-template-columns: 35% 60%;
+	}
 }
 
 @media screen and (min-width: 992px) {
@@ -70,6 +83,9 @@
 	.servicos-item{
 	width: 8%;
 	}
+	#contato{
+	grid-template-columns: 30% 60%;
+	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -87,6 +103,9 @@
 	}
 	.servicos-item{
 	width: 8%;
+	}
+	#contato{
+	grid-template-columns: 30% 60%;
 	}
 }
 /* Fim Media queries */
