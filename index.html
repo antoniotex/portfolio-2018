@@ -79,7 +79,7 @@
 				<img src="images/javascript.png" alt="" class="servicos-item">
 				<img src="images/jquery.png" alt="" class="servicos-item">
 				<img src="images/mysql.png" alt="" class="servicos-item">
-			
+
 				<img src="images/nodejs.png" alt="" class="servicos-item">
 				<img src="images/mongo.png" alt="" class="servicos-item">
 				<img src="images/wordpress.png" alt="" class="servicos-item">
@@ -93,16 +93,16 @@
 				<h4><i class="fa fa-user-o icon" aria-hidden="true"></i>Antonio Carlos</h4>
 				<h4><i class="fa fa-location-arrow icon" aria-hidden="true"></i>Rio de Janeiro - RJ</h4>
 				<h4><i class="fa fa-whatsapp icon" aria-hidden="true"></i>(21) 99679-6217</h4>
-				<h4><i class="fa fa-envelope-o icon" aria-hidden="true"></i>acm.skt@gmail.com</h4>
-				<h4><i class="fa fa-github icon" aria-hidden="true"></i>github.com/antoniotex</h4>
+				<h4><i class="fa fa-envelope-o icon" aria-hidden="true"><a href="mailto:acm.skt@gmail.com"></i>acm.skt@gmail.com</h4></a>
+				<h4><i class="fa fa-github icon" aria-hidden="true"><a href="https://github.com/antoniotex"></i>github.com/antoniotex</h4></a>
 			</div>
 			<div class="item-contato">
 				<form method="POST" action="https://formspree.io/acm.skt@gmail.com">
 					<h2>Deixe Sua Mensagem</h2>
-					<input type="text" name="name" placeholder="Seu Nome..."><br><br>
-					<input type="email" name="_replyto" placeholder="Seu E-mail..."><br><br>
-					<input type="text" name="Assunto" placeholder="Assunto..."><br><br>
-					<textarea name="Area-de-Texto" id="" cols="22" rows="7" placeholder="Digite sua mensagem..."></textarea><br><br><br>
+					<input type="text" name="name" placeholder="Seu Nome..." required><br><br>
+					<input type="email" name="_replyto" placeholder="Seu E-mail..." required><br><br>
+					<input type="text" name="Assunto" placeholder="Assunto..." required><br><br>
+					<textarea name="Area-de-Texto" id="" cols="22" rows="7" placeholder="Digite sua mensagem..." required></textarea><br><br><br>
 					<input class="btn" type="submit" value="Enviar">
 				</form>
 			</div>
@@ -125,7 +125,7 @@
 			$('nav a[href^="#"]').on('click', function(e) {
 				e.preventDefault();
 				var id = $(this).attr('href'), targetOffset = $(id).offset().top;
-				$('html, body').animate({ 
+				$('html, body').animate({
 					scrollTop: targetOffset - 1
 				}, 700);
 			});
