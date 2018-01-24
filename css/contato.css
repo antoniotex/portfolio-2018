@@ -8,8 +8,7 @@
 	justify-content: center;
 	margin: 0 auto;
 	border: 0px solid yellow;
-	border-radius: 0% 10%;
-	padding: 60px 0;
+	padding: 50px 0;
 }
 .item-contato{
 	margin: 15px 15px;
@@ -66,8 +65,11 @@ form{
 	font-size: 20px;
 	font-weight: bold;
 	background: #f00;
+	transition: 1s;
 }
 .btn:hover{
 	background: #fff;
 	color: red;
+	transform: scale(1.1);
+	transition: .5s;
 }
