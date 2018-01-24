@@ -97,23 +97,23 @@
 				<h4><i class="fa fa-github icon" aria-hidden="true"></i>github.com/antoniotex</h4>
 			</div>
 			<div class="item-contato">
-				<form method="post" action="">
+				<form method="POST" action="https://formspree.io/acm.skt@gmail.com">
 					<h2>Deixe Sua Mensagem</h2>
-					<input type="text" name="nome" placeholder="Seu Nome..."><br><br>
-					<input type="email" name="email" placeholder="Seu E-mail..."><br><br>
+					<input type="text" name="name" placeholder="Seu Nome..."><br><br>
+					<input type="email" name="_replyto" placeholder="Seu E-mail..."><br><br>
 					<input type="text" name="assunto" placeholder="Assunto..."><br><br>
 					<textarea name="area-de-texto" id="" cols="22" rows="7" placeholder="Digite sua mensagem..."></textarea><br><br><br>
-					<input class="btn" type="submit" value="Enviar">
+					<input class="btn" type="submit" value="Send">
 				</form>
 			</div>
 		</div>
 		<footer id="footer">
 			<div class="footer-1">
-				<a href="facebook.com" target="_blank"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
-				<a href="facebook.com" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-				<a href="facebook.com" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-				<a href="facebook.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-				<a href="facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="acm.skt@gmail.com" target="_blank"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/antonio-carlos-moraes-teixeira-4a8a68aa" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+				<a href="https://github.com/antoniotex" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+				<a href="https://www.twitter.com/antoniocarlostx" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/antoniocarlostex" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 			</div>
 			<div class="footer-2">
 				<h4><i class="fa fa-copyright icon" aria-hidden="true"></i>Copyright 2018 - Antonio Carlos</h4>
@@ -126,7 +126,7 @@
 				e.preventDefault();
 				var id = $(this).attr('href'), targetOffset = $(id).offset().top;
 				$('html, body').animate({ 
-					scrollTop: targetOffset - 30
+					scrollTop: targetOffset - 1
 				}, 700);
 			});
 
