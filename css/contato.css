@@ -36,7 +36,6 @@
 	align-items: stretch;
 }
 input{
-	
 	height: 50px;
 }
 input, textarea{
@@ -66,6 +65,7 @@ form{
 	font-weight: bold;
 	background: #f00;
 	transition: 1s;
+	margin-left: 20px;
 }
 .btn:hover{
 	background: #fff;
