@@ -64,7 +64,7 @@ form{
 	font-size: 20px;
 	font-weight: bold;
 	background: #f00;
-	transition: 1s;
+	transition: .5s;
 	margin-left: 20px;
 }
 .btn:hover{
@@ -76,4 +76,7 @@ form{
 .item-contato:nth-child(1) > h4 > a{
 	text-decoration: none;
 	color: #fff;
+}
+.item-contato:nth-child(1) > h4 > a:hover{
+	color: #bbb;
 }
